@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kshirsagar.videorecorder.test" >
+4
+5    <uses-sdk
+5-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:5:5-74
+6        android:minSdkVersion="14"
+6-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:5:15-41
+7        android:targetSdkVersion="27" />
+7-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:11:5-15:83
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:13:22-53
+13        android:label="Tests for com.kshirsagar.videorecorder.test"
+13-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:15:22-81
+14        android:targetPackage="com.kshirsagar.videorecorder.test" />
+14-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:12:22-79
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-65
+16-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-71
+17-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-68
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+18-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+19-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-78
+20
+21    <permission
+21-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-18:44
+22        android:name="android.permission.FLASHLIGHT"
+22-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-53
+23        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+23-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-77
+24        android:protectionLevel="normal" />
+24-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-41
+25
+26    <uses-feature android:name="android.hardware.camera" />
+26-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-60
+26-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-57
+27    <uses-feature
+27-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:36
+28        android:name="android.hardware.camera.front"
+28-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-53
+29        android:required="false" />
+29-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33
+30
+31    <application
+31-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:7:5-9:19
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.1] C:\Users\mohini\.gradle\caches\transforms-2\files-2.1\c1b022826a48be9f837a002b3623d216\core-1.0.1\AndroidManifest.xml:22:18-86
+33        android:debuggable="true"
+33-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:7:18-43
+34        android:largeHeap="true" >
+34-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:18-42
+35        <uses-library android:name="android.test.runner" />
+35-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:8:9-60
+35-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger9149548396472774618.xml:8:23-57
+36
+37        <activity
+37-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-30:20
+38            android:name="com.kshirsagar.videorecorder.activity.FFmpegRecorderActivity"
+38-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-88
+39            android:configChanges="orientation|screenSize"
+39-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-59
+40            android:theme="@style/ActivityTheme" >
+40-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-49
+41        </activity>
+42        <activity
+42-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-35:20
+43            android:name="com.kshirsagar.videorecorder.activity.FFmpegPreviewActivity"
+43-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-87
+44            android:configChanges="orientation|screenSize"
+44-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-59
+45            android:theme="@style/ActivityTheme" >
+45-->[__tested_artifact__::ffmpeg-video-recorder] D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-49
+46        </activity>
+47    </application>
+48
+49</manifest>

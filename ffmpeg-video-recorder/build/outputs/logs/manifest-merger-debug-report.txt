@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:1:1-34:12
+	package
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:2:5-63
+uses-permission#android.permission.CAMERA
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:8:22-78
+permission#android.permission.FLASHLIGHT
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:10:5-13:44
+	android:protectionLevel
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:13:9-41
+	android:permissionGroup
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:12:9-77
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:11:9-53
+uses-feature#android.hardware.camera
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:15:19-57
+uses-feature#android.hardware.camera.front
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:17:9-53
+application
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:20:5-32:19
+	android:largeHeap
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:21:9-33
+activity#com.kshirsagar.videorecorder.activity.FFmpegRecorderActivity
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:22:9-26:20
+	android:configChanges
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:25:13-59
+	android:theme
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:23:13-88
+activity#com.kshirsagar.videorecorder.activity.FFmpegPreviewActivity
+ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:27:9-31:20
+	android:configChanges
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:30:13-59
+	android:theme
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:28:13-87
+uses-sdk
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+		ADDED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+		INJECTED from D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml

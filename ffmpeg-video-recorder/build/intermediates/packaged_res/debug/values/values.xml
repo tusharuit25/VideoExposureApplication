@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_gray">#222</color>
+    <color name="red">#ff0000</color>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="discard_video_msg">Are you sure you want to discard the current recording?</string>
+    <string name="done">Done</string>
+    <string name="encoding_percent">Encoding %d%%</string>
+    <string name="initializing">Initializing...</string>
+    <string name="next">Next</string>
+    <string name="preparing">Preparing...</string>
+    <string name="preview_video">Preview Video</string>
+    <string name="record_video">Record Video</string>
+    <string name="saving_video">Saving Video</string>
+    <string name="video_saved_path">Your video is saved at</string>
+    <style name="ActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="colorPrimary">#3498D6</item>
+        <item name="colorPrimaryDark">#0165A3</item>
+        <item name="colorAccent">#67CBFF</item>
+    </style>
+</resources>

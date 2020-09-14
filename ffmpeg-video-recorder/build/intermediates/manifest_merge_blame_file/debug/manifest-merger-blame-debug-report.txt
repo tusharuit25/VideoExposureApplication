@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kshirsagar.videorecorder"
+4    android:versionName="2.0.3" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="14"
+7-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="27" />
+8-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:5:5-65
+10-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:5:22-62
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:6:5-71
+11-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:6:22-68
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:7:5-68
+12-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:8:5-81
+13-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:8:22-78
+14
+15    <permission
+15-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:10:5-13:44
+16        android:name="android.permission.FLASHLIGHT"
+16-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:11:9-53
+17        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+17-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:12:9-77
+18        android:protectionLevel="normal" />
+18-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:13:9-41
+19
+20    <uses-feature android:name="android.hardware.camera" />
+20-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:15:5-60
+20-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:15:19-57
+21    <uses-feature
+21-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:16:5-18:36
+22        android:name="android.hardware.camera.front"
+22-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:17:9-53
+23        android:required="false" />
+23-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:18:9-33
+24
+25    <application android:largeHeap="true" >
+25-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:20:5-32:19
+25-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:21:9-33
+26        <activity
+26-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:22:9-26:20
+27            android:name="com.kshirsagar.videorecorder.activity.FFmpegRecorderActivity"
+27-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:23:13-88
+28            android:configChanges="orientation|screenSize"
+28-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:25:13-59
+29            android:theme="@style/ActivityTheme" >
+29-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:24:13-49
+30        </activity>
+31        <activity
+31-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:27:9-31:20
+32            android:name="com.kshirsagar.videorecorder.activity.FFmpegPreviewActivity"
+32-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:28:13-87
+33            android:configChanges="orientation|screenSize"
+33-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:30:13-59
+34            android:theme="@style/ActivityTheme" >
+34-->D:\assetpanda\Android\VideoExposureApplication\ffmpeg-video-recorder\src\main\AndroidManifest.xml:29:13-49
+35        </activity>
+36    </application>
+37
+38</manifest>
